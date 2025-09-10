@@ -1,0 +1,195 @@
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #f9f9f9;
+
+  color: #333;
+
+}
+
+/* Sidebar */
+
+.sidebar {
+
+  height: 100%;
+
+  width: 220px;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  background: pink  ;
+
+  padding-top: 30px;
+
+}
+
+.sidebar h2 {
+
+  color: #fff;
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+.sidebar a {
+
+  display: block;
+
+  color: #ddd;
+
+  padding: 12px;
+
+  text-decoration: none;
+
+  text-align: center;
+
+}
+
+.sidebar a:hover {
+
+  background: blue;
+
+  color: #fff;
+
+}
+
+/* Content */
+
+.content {
+
+  margin-left: 220px;
+
+  padding: 30px;
+
+}
+
+section {
+
+  padding: 40px 20px;
+
+  margin-bottom: 40px;
+
+  background: #fff;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+
+}
+
+h2 {
+
+  color: #0077b6;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+
+}
+
+.profile {
+
+  text-align: center;
+
+}
+
+.profile img {
+
+  width: 140px;
+
+  border-radius: 50%;
+
+  margin-bottom: 15px;
+
+}
+
+.skills, .projects {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+  gap: 15px;
+
+}
+
+.card {
+
+  background: #eaf4ff;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  text-align: center;
+
+}
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+input, textarea {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+button {
+
+  padding: 12px;
+
+  background: #0077b6;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background: #023e8a;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 15px;
+
+  background: #222;
+
+  color: #fff;
+
+  margin-left: 220px;
+
+}
